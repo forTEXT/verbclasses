@@ -19,7 +19,7 @@ In the json file `annotation_data.json` contains all annotations in our dataset.
     "annotations" {
       "tag": "tag",
       "author": "Annotator X",
-      "spans": [(10, 15)]
+      "spans": [[10, 15]]
     }
   }
 }
