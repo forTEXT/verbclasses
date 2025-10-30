@@ -16,11 +16,13 @@ In the json file `annotation_data.json` contains all annotations in our dataset.
 {
   "Text Name": {
     "full_text": "The full text of the document", 
-    "annotations" {
+    "Annotator 1" [{
       "tag": "tag",
-      "author": "Annotator X",
       "spans": [[10, 15]]
-    }
+    }, ...],
+    "Annotator 2" : [{
+      ...
+    }, ...]
   }
 }
 ```
